@@ -38,3 +38,7 @@ A: 将更新目录中的php和update.sh 放到U盘，然后重启，即可。
 
 A: 更新到最新的ebook.php ，在ebook菜单创建一个 off.txt 当选择这个文件时，就关闭系统
 
+** Q10:如何更换电纸书的字体 **
+
+A: 在 ebook/ebook.php  找到 "/opt/qte/fonts/msyh.ttf"  字样改成自己的字体文件
+    U盘根目录是  /mnt/udisk 。 比如放一个blod.ttf 在u盘根上，那么写成  /mnt/udisk/bolod.ttf 即可。
