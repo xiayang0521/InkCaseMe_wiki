@@ -43,3 +43,8 @@ A: 更新到最新的ebook.php ，在ebook菜单创建一个 off.txt 当选择�
 
 A: 在 ebook/ebook.php  找到 "/opt/qte/fonts/msyh.ttf"  字样改成自己的字体文件
     U盘根目录是  /mnt/udisk 。 比如放一个blod.ttf 在u盘根上，那么写成  /mnt/udisk/bolod.ttf 即可。
+
+
+**Q11:如何制作自己的刷机固件**
+
+A: https://wiztrader.ctfile.com/fs/13954143-199651049  mount_bin.sh 可以用来挂载，修改完以后 build_img.sh 生成img，复制到原有刷机包中即可
